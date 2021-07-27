@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+ }
+  
+ body {
+    font-family: sans-serif;
+    margin: 10%;
+ }
+  
+ .flex-container-column {
+    display: flex;
+    /* properti pendukung */
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: right;
+ }
+  /*bagian header*/
+ .flex-header-row {
+    display: flex;
+ }
+
+ .flex-header-column {
+    flex-basis: 20%;
+    /* properti pendukung */
+    font-size: 1em;
+    text-align: center;
+    padding: auto;
+    border: 2px solid black;
+    background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+    cursor: pointer;
+ }
+.logo{
+    flex-basis: 15%;
+    border-left: none;
+    border-right: none;
+}
+img{
+    width:75px ;
+}
+.kop{
+flex-basis: 30%;
+border-left: none;
+border-right: none;
+}
+.alamat{
+    font-size: 12px;
+}
+ .judul-cerapan-samping{
+    flex-basis: 20%;
+    /* properti pendukung */
+    font-size: 1em;
+    text-align: center;
+    padding: auto;
+    border-bottom: none;
+    background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+    cursor: pointer;
+ }
+ .head{
+    border-bottom: 1px solid black;
+ }
+ /*akhir bagian header */
+
+ /*bagian colum 2*/
+ .flex-colum2-row{
+     display: flex;
+ }
+.rangka-uji{
+    flex-basis: 20%;
+    /* properti pendukung */
+    font-size: 1em;
+    text-align: center;
+    padding: auto;
+    border: 1px solid black;
+    background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+    cursor: pointer;
+}
+.judul-rangka{
+    flex-basis: 60% ;
+    padding-top: 10px;
+}
+.check{
+    text-align: left;
+    padding-left: 4px;
+}
+ /*akhir bagian colum 2*/
+
+ /*bagian kolom 3*/
+ .judul-uji{
+     flex-basis: 100%;
+    /* properti pendukung */
+    font-size: 1em;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid black;
+    background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+    cursor: pointer;
+ }
+ .bagian-data-uji{
+     display: flex;
+ }
+ .isi-data-uji{
+    flex-basis: 45%;
+    /* properti pendukung */
+    font-size: 1em;
+    text-align: left;
+    padding: auto;
+    border: 1px solid black;
+    background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+    cursor: pointer;
+ }
+.petugas{
+    flex-basis: 30%;
+    border-left: none;
+ }
+ span{
+     background-color: white;
+ }
+.identity{
+    flex-basis: 25%;
+    border-right: none;
+}
+.data{
+    border-left:none;
+    border-right: none;
+}
+ h5{
+     margin: 5px;
+ }
+/*akhir bagian kolom 3*/
+
+/*bagian kolom 4*/
+.judul-master{
+    flex-basis: 100%;
+   /* properti pendukung */
+   font-size: 1em;
+   text-align: center;
+   padding: 2px;
+   border: 1px solid black;
+   background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+   cursor: pointer;
+}
+.bagian-data-master{
+    display: flex;
+}
+.isi-data-master{
+   flex-basis: 25%;
+   /* properti pendukung */
+   font-size: 1em;
+   text-align: left;
+   padding: auto;
+   border: 1px solid black;
+   background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+   cursor: pointer;
+}
+.id{
+    margin:7px;
+}
+.data-master1{
+    border-left:none;
+    border-right: none;
+}
+.data-master2{
+    border-left:none;
+}
+.identity-master2{
+    border-left:none;
+    border-right: none;
+}
+.identity-master1{
+    border-right: none;
+}
+/*akhir bagian kolom 4*/
+
+/* bagian kolom 5*/
+.bagian-colum5{
+    display:flex;
+}
+.judul-meter-uji{
+    flex-basis: 50%;
+   /* properti pendukung */
+   font-size: 1em;
+   text-align: center;
+   padding: 2px;
+   border: 1px solid black;
+   background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+   cursor: pointer;
+}
+.bagian-data-meter-uji{
+    display: flex;
+}
+.isi-data-meter-uji{
+   flex-basis: 25%;
+   /* properti pendukung */
+   font-size: 1em;
+   text-align: left;
+   padding: auto;
+   border: 1px solid black;
+   background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+   cursor: pointer;
+}
+.id{
+    margin:7px;
+}
+.data-meter-uji1{
+    border-left:none;
+}
+.data-meter-uji2{
+    border-left:none;
+}
+.identity-meter-uji2{
+    border-right: none;
+}
+.identity-meter-uji1{
+    border-right: none;
+}
+/*akhir bagian kolom 5*/
+
+/* bagian kolom 6*/
+.judul-hasil{
+    flex-basis: 100%;
+   /* properti pendukung */
+   font-size: 1em;
+   text-align: center;
+   padding: 2px;
+   border: 1px solid black;
+   background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+   cursor: pointer;
+}
+/*akhir bagian kolom 6*/
+
+ 
+
+ 
+ 

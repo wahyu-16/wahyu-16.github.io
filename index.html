@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cerapan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="flex-container-column">
+
+        <!--bagian header banget-->
+        <div class="flex-header-row">
+            <div class="flex-header-column">
+                <div class="judul-cerapan-samping head">TERA/TERA ULANG</div>
+                <!--nanti dibuat dropdown-->
+                <div class="judul-cerapan-samping">Meter Arus Bahan Bakar Minyak dan Produk Terkait</div>
+            </div>
+            <div class="flex-header-column logo"><img src="assets/logo kemendag.png" alt="logo kemendag"></div>
+            <div class="flex-header-column kop">
+                <div class="instansi">DIREKTORAT METROLOGI</div>
+                <div class="instansi alamat">Jl. Pasteur No. 27 Bandung 40171</div>
+                <div class="instansi alamat">Telp. (022) 4219594 Fax. (022) 4219594</div>
+            </div>
+            <div class="flex-header-column logo"><img src="assets/logo ditmet.png" alt="logo ditmet"></div>
+            <div class="flex-header-column">
+                <div class="judul-cerapan-samping head">CERAPAN</div>
+                <!--nanti dibuat dropdown-->
+                <div class="judul-cerapan-samping">Pengujian Penunjukan Volume Menggunakan Master Meter</div>
+            </div>
+        </div>
+        <!--bagian header banget selesai-->
+
+        <!--bagian kolom 2-->
+        <div class="flex-colum2-row">
+            <div class="rangka-uji">
+                <div class="rangka">Nomor Order :</div>
+                <div class="rangka">00-000-00-000</div>
+            </div>
+            <div class="rangka-uji judul-rangka">PENGUJIAN DILAKUKAN DALAM RANGKA</div>
+            <div class="rangka-uji check">
+                <!--nanti ini diubah terus diintegrasikan dengan database-->
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
+                    <label class="form-check-label" for="flexCheckDisabled">
+                        TERA
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked
+                        disabled>
+                    <label class="form-check-label" for="flexCheckCheckedDisabled">
+                        TERA ULANG
+                    </label>
+                </div>
+            </div>
+        </div>
+        <!--bagian kolom 2 selesai-->
+
+        <!--bagian kolom 3-->
+        <div class="judul-uji">DATA PENGUJIAN</div>
+        <div class="bagian-data-uji">
+            <div class="isi-data-uji identity">
+                <h5>Merk</h5>
+                <h5>Nomor Tag</h5>
+                <h5>Nomor Seri Badan Hitung</h5>
+                <h5>Nomor Seri Badan Ukur</h5>
+                <h5>Tanggal Pengujian</h5>
+            </div>
+            <div class="isi-data-uji data">
+                <h5>: <input type="text" style="border:none;"></h5>
+                <h5>: <input type="text" style="border:none;"></h5>
+                <h5>: <input type="text" style="border:none;"></h5>
+                <h5>: <input type="text" style="border:none;"></h5>
+                <h5>: <input type="text" style="border:none;"></h5>
+            </div>
+            <div class="isi-data-uji petugas">
+                <h5>Petugas : </h5>
+                <h5>1. Petugas 1 <span>______</span></h5>
+                <h5>2. Petugas 2 <span>______</span></h5>
+                <h5>3. Petugas 3 <span>______</span></h5>
+            </div>
+        </div>
+        <!--bagian kolom 3 selesai-->
+
+        <!--bagian kolom 4 selesai-->
+        <div class="judul-master">DATA PENGUJIAN</div>
+        <div class="bagian-data-master">
+            <div class="isi-data-master identity-master1">
+                <h5 class="id">Master yang dipakai</h5>
+                <h5 class="id">Jenis</h5>
+                <h5 class="id">Merek</h5>
+                <h5 class="id">Tipe</h5>
+                <h5 class="id">No. Seri</h5>
+                <h5 class="id">Tanggal verifikasi terakhir</h5>
+            </div>
+            <div class="isi-data-master data-master1">
+                <h5>: <input type="text" style="border:none;"></h5>
+                <h5>: <input type="text" style="border:none;"></h5>
+                <h5>: <input type="text" style="border:none;"></h5>
+                <h5>: <input type="text" style="border:none;"></h5>
+                <h5>: <input type="text" style="border:none;"></h5>
+                <h5>: <input type="text" style="border:none;"></h5>
+            </div>
+            <div class="isi-data-master identity-master2">
+                <h5 class="id">Kapasitas (maks - min)</h5>
+                <h5 class="id">Temperatur Operasional</h5>
+                <h5 class="id">Tekanan Operasional</h5>
+                <h5 class="id">Rentang Densitas</h5>
+                <h5 class="id">Rentang Viskositas (jika ada)</h5>
+                <h5 class="id">MMQ (jika ada)</h5>
+            </div>
+            <div class="isi-data-master data-master2">
+                <h5>: <input type="text" style="border:none; width: 70%;">L/min</h5>
+                <h5>: <input type="text" style="border:none;width: 70%;">&degC</h5>
+                <h5>: <input type="text" style="border:none;width: 70%;">kg/m<sup>2</sup></h5>
+                <h5>: <input type="text" style="border:none;width: 70%;">kg/m<sup>3</sup></h5>
+                <h5>: <input type="text" style="border:none;"></h5>
+                <h5>: <input type="text" style="border:none;"></h5>
+            </div>
+        </div>
+        <!--bagian kolom 4 selesai-->
+
+        <!--bagian kolom 5-->
+        <div class="bagian-colum5">
+            <div class="judul-meter-uji">DATA PENGUJIAN</div>
+            <div class="judul-meter-uji">DATA PENGUJIAN</div>
+        </div>
+        <div class="bagian-data-meter-uji">
+            <div class="isi-data-meter-uji identity-meter-uji1">
+                <h5 class="id">Totalisator awal</h5>
+                <h5 class="id">Totalisator akhir</h5>
+                <h5 class="id">K-Factor Volume (KF<sub>v</sub>)</h5>
+                <h5 class="id">Meter Factor Awal</h5>
+            </div>
+            <div class="isi-data-meter-uji data-meter-uji1">
+                <h5>: <input type="text" style="border:none;width: 50%;">Barrel</h5>
+                <h5>: <input type="text" style="border:none;width: 50%;">Dekaliter</h5>
+                <h5>: <input type="text" style="border:none;width: 50%;">pulse/unit</h5>
+                <h5>: <input type="text" style="border:none;width: 50%;"></h5>
+
+            </div>
+            <div class="isi-data-meter-uji identity-meter-uji2">
+                <h5 class="id">Jenis cairan uji</h5>
+                <h5 class="id">Temperatur dasar (T<sub>base</sub>)</h5>
+                <h5 class="id">Massa jenis cairan hasil pengukuran (&#961;)</h5>
+                <h5 class="id">Temperatur pengukuran</h5>
+                <h5 class="id">Massa jenis suhu 15 &degC (&#961;<sub>TB</sub>)<sub>TABEL 53 ASTM</sub></h5>
+                <h5 class="id">Metode pembacaan Tabel ASTM</h5>
+            </div>
+            <div class="isi-data-meter-uji data-meter-uji2">
+                <h5>: <input type="text" style="border:none;width: 50%;"></h5>
+                <h5>: <input type="text" style="border:none;width: 50%;">&degC</h5>
+                <h5>: <input type="text" style="border:none;margin:4px 0px 5px 0px;width: 50%;">kg/m<sup>3</sup></h5>
+                <h5>: <input type="text" style="border:none;margin:8px 0px 0px 0px;width: 50%;">&degC</h5>
+                <h5>: <input type="text" style="border:none;margin:5px 0px 10px 0px;width: 50%;">kg/m<sup>3</sup></h5>
+                <h5>: <input type="text" style="border:none;width: 50%;"></h5>
+            </div>
+        </div>
+
+        <!--bagian kolom 5 selesai-->
+
+        <!--bagian kolom 6-->
+        <div class="judul-hasil">HASIL PENGUJIAN</div>
+        <!--bagian kolom 6 selesai-->
+    </div>
+</body>
+
+</html>
